@@ -365,3 +365,5 @@ section.block+section.block{border-top:1px solid var(--line)}
 
 /* paid placement label */
 .card.featured{position:relative}.card.featured::before{content:"Featured \00b7  paid placement";position:absolute;top:8px;right:10px;font:700 .72rem/1 Arial,sans-serif;letter-spacing:.03em;color:#7a4b0e;background:#fdebd0;border:1px solid #f2a33a;border-radius:999px;padding:4px 8px}
+
+@media (max-width:480px){.hero .eyebrow{white-space:normal;max-width:100%;text-align:left;line-height:1.3}}
