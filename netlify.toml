@@ -165,3 +165,8 @@ force = false
   [redirects.conditions]
 
   [redirects.headers]
+[[redirects]]
+  from = "https://cute-semifreddo-c3eb0d.netlify.app/*"
+  to = "https://dryheatyards.com/:splat"
+  status = 301
+  force = true
